@@ -17,8 +17,3 @@ def fizz_buzz(number):
             else:
                 output = number
     return output.replace('deluxe','fake deluxe') if number % 2 != 0 and isinstance(output,str) else output
-
-
-
-
-
