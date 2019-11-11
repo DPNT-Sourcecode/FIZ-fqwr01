@@ -6,5 +6,3 @@ def compute(x, y):
             return x + y
     else:
         return None
-
-
