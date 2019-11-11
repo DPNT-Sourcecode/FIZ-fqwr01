@@ -8,7 +8,7 @@ def fizz_buzz(number):
             elif number % 5 == 0 or '5' in str(number):
                 output = 'fizz buzz deluxe' if number % 3 == 0 or '3' in str(number) else 'buzz deluxe'
             else:
-                return 'deluxe'
+                output = 'deluxe'
         else:
             if number % 3 == 0 or '3' in str(number):
                 output = 'fizz buzz' if number % 5 == 0 or '5' in str(number) else 'fizz'
@@ -17,6 +17,7 @@ def fizz_buzz(number):
             else:
                 output = number
     return output.replace('deluxe','fake deluxe') if number % 2 != 0 else output
+
 
 
 
