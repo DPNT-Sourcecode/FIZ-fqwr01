@@ -6,5 +6,6 @@ def fizz_buzz(number):
         elif number % 5 == 0 or '5' in str(number):
             return 'fizz buzz' if number % 3 == 0 or '3' in str(number) else 'buzz'
         else:
-            number
+            return number
     # raise NotImplementedError()
+
