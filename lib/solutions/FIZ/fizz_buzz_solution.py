@@ -18,6 +18,7 @@ def fizz_buzz(number):
                 output = 'fizz buzz' if number % 3 == 0 or '3' in str(number) else output = 'buzz'
             else:
                 output = number
-    return
+    return output.repl
     # raise NotImplementedError()
+
 
