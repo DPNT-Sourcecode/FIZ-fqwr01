@@ -1,7 +1,7 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
     if 1 <= number <= 9999:
-        if number > 10 and len(set(str(number))) == 1:
+        if number > 10 and len(set(str(number))) == 1 and number % 2 != 0:
             if number % 3 == 0 or '3' in str(number):
                 return 'fizz buzz deluxe' if number % 5 == 0 or '5' in str(number) else 'fizz deluxe'
             elif number % 5 == 0 or '5' in str(number):
@@ -16,6 +16,7 @@ def fizz_buzz(number):
             else:
                 return number
     # raise NotImplementedError()
+
 
 
 
